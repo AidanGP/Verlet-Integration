@@ -1,0 +1,12 @@
+html, body {
+	margin: 0px;
+	background-color: #171717
+}
+
+canvas {
+	background-color: #171717;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
