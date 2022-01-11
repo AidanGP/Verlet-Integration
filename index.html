@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Verlet Integration</title>
 	<link rel="icon" href="img/favicon.ico" />
 	<link rel="stylesheet" href="styles/style.css" />
 </head>
+
 <body>
-	<canvas id="canvas" oncontextmenu="return!1"></canvas>
-    <script type="text/javascript" src="scripts/constants.js"></script>
-    <script type="text/javascript" src="scripts/listeners.js"></script>
-    <script type="text/javascript" src="scripts/main.js"></script>
+	<div class="main">
+		<canvas id="canvas" oncontextmenu="return!1"></canvas>
+		<h2>• Left click to place joints</br>
+			• Middle click to place immovable joints</br>
+			• Space bar to pause and unpause the scene</br>
+			• Press 'x' while hovering over a stick or joint to erase it</h2>
+	</div>
+	<script type="text/javascript" src="scripts/constants.js"></script>
+	<script type="text/javascript" src="scripts/listeners.js"></script>
+	<script type="text/javascript" src="scripts/main.js"></script>
 	<script type="text/javascript" src="scripts/helper_fns.js"></script>
 </body>
+
 </html>
